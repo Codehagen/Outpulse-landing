@@ -135,7 +135,9 @@ export default function HeroSection() {
                     className="h-10.5 rounded-xl px-5"
                   >
                     <Link href="#link">
-                      <span className="text-nowrap">Book en Demo</span>
+                      <span className="text-nowrap">
+                        Bli med på ventelisten
+                      </span>
                     </Link>
                   </Button>
                 </AnimatedGroup>
@@ -143,7 +145,12 @@ export default function HeroSection() {
 
               <div className="relative flex justify-center lg:justify-center overflow-hidden rounded-3xl">
                 <BackgroundWave />
-                <ConvAI />
+                <AnimatedGroup
+                  variants={transitionVariants}
+                  className="relative z-10"
+                >
+                  <ConvAI />
+                </AnimatedGroup>
               </div>
             </div>
           </div>
