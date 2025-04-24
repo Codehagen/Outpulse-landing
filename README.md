@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Outpulse - AI-drevne kundesamtaler og arbeidsflyt
 
-## Getting Started
+Outpulse er en plattform designet for å automatisere og forbedre kundeinteraksjoner ved hjelp av avanserte AI-agenter. Målet er å frigjøre tid for bedriftens ansatte, forbedre kundeopplevelsen, øke konverteringsraten og skape mer effektive arbeidsflyter.
 
-First, run the development server:
+## Hva er Outpulse?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Outpulse er mer enn bare en chatbot. Det er et intelligent system som:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **Fører naturlige samtaler:** AI-agentene kan håndtere komplekse dialoger med kunder 24/7.
+*   **Tar handling:** Agentene kan booke møter i kalendere, oppdatere CRM-systemer, sende SMS-varsler og utføre andre definerte oppgaver.
+*   **Integrerer sømløst:** Kobler seg til dine eksisterende verktøy som Google Calendar, Outlook, Salesforce, HubSpot, Pipedrive og meldingsplattformer.
+*   **Gir deg kontroll:** Du definerer samtalemaler, beslutningspunkter og hvilke handlinger agentene skal utføre.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Kjernefunksjonalitet
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **AI-drevne agenter:** Bruker state-of-the-art språkmodeller for å forstå kontekst og gi relevante svar.
+*   **Dynamisk samtaleflyt:** Tilpasser samtalen basert på kundens svar og forhåndsdefinerte regler.
+*   **Handlingsorientert:** Utfører konkrete oppgaver i integrerte systemer (booking, CRM-oppdatering, SMS).
+*   **Kontinuerlig læring:** Agentene blir stadig bedre på å håndtere dine spesifikke behov.
 
-## Learn More
+## Fordeler med Outpulse
 
-To learn more about Next.js, take a look at the following resources:
+*   **Spar tid:** Reduserer administrative og repetitive oppgaver betydelig (opptil 70%).
+*   **Bedre kundeopplevelse:** Gir umiddelbar respons og konsistent kommunikasjon.
+*   **Økt konvertering:** Fanger opp flere leads og reduserer frafall med proaktiv og intelligent oppfølging (opptil 40%).
+*   **Skalerbarhet:** Håndterer store samtalevolumer uten behov for økt bemanning.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Hvordan fungerer det?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Definer:** Sett opp samtalemaler og logikk for hvordan AI-agenten skal interagere.
+2.  **Integrer:** Koble Outpulse til dine kalender-, CRM- og meldingssystemer.
+3.  **Automatiser:** La AI-agentene håndtere innkommende og utgående kommunikasjon, samt utføre tilknyttede oppgaver.
+4.  **Analyser:** Få innsikt i samtaledata og ytelse for kontinuerlig forbedring.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Dette er en landingsside for Outpulse bygget med Next.js og Tailwind CSS.* 
