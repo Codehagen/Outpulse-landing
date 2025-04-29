@@ -43,10 +43,9 @@ export default function Features() {
             Hva er Outpulse?
           </h2>
           <p>
-            Outpulse gjør det enkelt å bruke AI-roboter for bedriften din.
-            Outpulse er den perfekte ansatte som kan håndtere salg, møte booking
-            og all din kundesupport. Outpulse´s AI høres ut som et menneske, kan
-            snakke alle språk og jobber 24/7.
+            Outpulse gjør det enkelt å automatisere salg og kundeservice. Våre
+            AI-roboter jobber utrettelig, integrerer med dine systemer og
+            leverer resultater – raskt.
           </p>
         </div>
 
@@ -65,9 +64,8 @@ export default function Features() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                La Outpulse sine AI-agenter jobbe utrettelig med salg 24/7. De
-                kan ringe potensielle kunder, følge opp leads og booke møter –
-                alt med en naturlig, menneskelig stemme.
+                La AI-en ringe leads, følge opp potensielle kunder og booke
+                møter – alt med en naturlig, menneskelig stemme.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -78,9 +76,8 @@ export default function Features() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Forbedre kundeopplevelsen med AI-drevet support. Outpulse svarer
-                på vanlige spørsmål, løser problemer og gir assistanse døgnet
-                rundt, slik at dine ansatte kan fokusere på mer komplekse saker.
+                Håndter spørsmål og support døgnet rundt, uten å ansette flere.
+                Kundene dine får svar umiddelbart.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -91,9 +88,8 @@ export default function Features() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Automatiser bookingprosessen. Outpulse kan integreres med
-                kalenderen din for å avtale møter, sende bekreftelser og
-                påminnelser, og redusere &quot;no-shows&quot;.
+                Book møter direkte i kalenderen din, send bekreftelser og
+                reduser no-shows – automatisk.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
@@ -104,9 +100,8 @@ export default function Features() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Effektiviser salgsprosessen ved å la Outpulse kvalifisere leads.
-                AI-agenten stiller de riktige spørsmålene og sender kun de
-                varmeste leadene videre til salgsteamet.
+                Identifiser og prioriter de beste leadsene, så teamet ditt kan
+                fokusere på å close deals.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

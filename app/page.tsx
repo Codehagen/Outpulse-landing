@@ -1,21 +1,19 @@
 import React from "react";
 import Link from "next/link";
-import { ArrowRight, ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-// import Image from "next/image"; // Removed unused import
+import { ArrowRight } from "lucide-react";
 import { HeroHeader } from "@/components/hero5-header";
 import { AnimatedGroup } from "@/components/ui/animated-group";
 import { TextEffect } from "@/components/ui/text-effect";
 import Features from "@/components/features-12";
 import Footer from "@/components/footer";
 import FAQsTwo from "@/components/faqs-2";
-import CallToAction from "@/components/call-to-action";
-import IntegrationsSection from "@/components/integrations-7";
+
 import Features2 from "@/components/features-2";
 import { ConvAI } from "@/components/elevenlabs/ConvAI";
 import { BackgroundWave } from "@/components/elevenlabs/background-wave";
 import ContentSection from "@/components/content-4";
 import Features3 from "@/components/features-11";
+import PhoneCallForm from "@/components/phone-call-form";
 
 const transitionVariants = {
   item: {
@@ -57,11 +55,11 @@ export default function HeroSection() {
               <div className="text-center lg:text-left sm:mx-auto lg:mr-auto lg:mt-0">
                 <AnimatedGroup variants={transitionVariants}>
                   <Link
-                    href="#link"
+                    href="/waitlist"
                     className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto lg:mx-0 flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950"
                   >
                     <span className="text-foreground text-sm">
-                      Outpulse: Din plattform for AI-roboter
+                      Outpulse: Automatiser salg og kundeservice med AI-roboter
                     </span>
                     <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
 
@@ -82,9 +80,9 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="mt-8 text-balance text-5xl md:text-6xl lg:mt-16 xl:text-7xl"
+                  className="mt-4 text-balance text-5xl md:text-6xl lg:mt-8 xl:text-7xl"
                 >
-                  Vi automatiserer salg og kundeservice
+                  Din drøm om automatisert suksess starter her
                 </TextEffect>
                 <TextEffect
                   per="line"
@@ -111,35 +109,12 @@ export default function HeroSection() {
                     },
                     ...transitionVariants,
                   }}
-                  className="mt-12 flex flex-col items-center lg:items-start justify-center lg:justify-start gap-2 md:flex-row"
+                  className="mt-12 flex flex-col items-center lg:items-start justify-center lg:justify-start gap-4"
                 >
-                  <div
-                    key={1}
-                    className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5"
-                  >
-                    <Button
-                      asChild
-                      size="lg"
-                      className="rounded-xl px-5 text-base"
-                    >
-                      <Link href="#link">
-                        <span className="text-nowrap">Snakk med AI</span>
-                      </Link>
-                    </Button>
-                  </div>
-                  <Button
-                    key={2}
-                    asChild
-                    size="lg"
-                    variant="ghost"
-                    className="h-10.5 rounded-xl px-5"
-                  >
-                    <Link href="#link">
-                      <span className="text-nowrap">
-                        Bli med på ventelisten
-                      </span>
-                    </Link>
-                  </Button>
+                  <PhoneCallForm />
+                  <p className="text-sm text-muted-foreground lg:mx-0 text-center lg:text-left">
+                    Fyll inn nummeret ditt, så kan du teste Outpulse live.
+                  </p>
                 </AnimatedGroup>
               </div>
 
@@ -156,7 +131,7 @@ export default function HeroSection() {
           </div>
         </section>
         <section className="bg-background pb-16 pt-16 md:pb-32">
-          <div className="group relative m-auto max-w-5xl px-6">
+          {/* <div className="group relative m-auto max-w-5xl px-6">
             <div className="absolute inset-0 z-10 flex scale-95 items-center justify-center opacity-0 duration-500 group-hover:scale-100 group-hover:opacity-100">
               <Link
                 href="/"
@@ -243,7 +218,7 @@ export default function HeroSection() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         <section>
           <Features />
