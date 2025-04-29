@@ -30,9 +30,7 @@ export async function POST(request: Request) {
       {
         method: "POST",
         headers: {
-          "xi-api-key":
-            process.env.ELEVENLABS_API_KEY ||
-            "sk_44ecd3e27e19a5754b9ea5b1600a600dd245bad742f58c12",
+          "xi-api-key": process.env.ELEVENLABS_API_KEY || "",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
