@@ -34,7 +34,7 @@ export async function POST(request: Request) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          agent_id: process.env.ELEVENLABS_AGENT_ID || "wKvQLHUlu3acQkVsNbFj",
+          agent_id: process.env.ELEVENLABS_AGENT_ID || "uYjJxdMnMiikrlLGYNgx",
           agent_phone_number_id:
             process.env.ELEVENLABS_PHONE_ID || "chhOGGyJ0zneA95WSADV",
           to_number: formattedNumber,
